@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "barbellBenchPressIcon.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

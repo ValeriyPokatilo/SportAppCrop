@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "MGL_.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

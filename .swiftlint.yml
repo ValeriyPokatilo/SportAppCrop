@@ -1,0 +1,31 @@
+opt_in_rules:
+  - unused_closure_parameter    # Неиспользуемые параметры в замыканиях
+  - unused_enumerated           # Неиспользуемые переменные в enumerated()
+  - unused_private_declaration  # Неиспользуемые приватные свойства и методы
+  - unused_setter_value         # Неиспользуемые значения в сеттерах
+  - trailing_whitespace         # Пробелы в конце строки
+  - vertical_whitespace         # Лишние пустые строки
+  - empty_parameters            # Лишние пробелы в параметрах
+  - indenting                   # Проверка на использование табов вместо пробелов
+
+disabled_rules:
+  - todo
+  - identifier_name
+  - superfluous_disable_command
+
+included:
+  - SportApp
+
+excluded:
+  - Pods
+  - SportApp/Controllers/Base
+
+custom_rules:
+  no_created_by:
+    name: "Prohibited 'Created by' Comment"
+    regex: "Created by"
+    match_kinds:
+      - comment
+      - string
+    message: "Template header comments should be removed."
+    severity: warning
